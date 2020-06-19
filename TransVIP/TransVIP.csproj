@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Communication\IClient.cs" />
+    <Compile Include="Communication\VipClient.cs" />
+    <Compile Include="Transactions\Direction.cs" />
     <Compile Include="Transactions\Tag.cs" />
     <Compile Include="Transactions\Transaction.cs" />
     <Page Include="MainWindow.xaml">
